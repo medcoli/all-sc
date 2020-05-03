@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Maiden+Orange&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+:root {
+	--ahmadgans--: 
+}
+
+body {
+	font-family: 'Maiden Orange', cursive;
+	display: block;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+#bg {
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: 0;
+	position: fixed;
+	background: url(../images/bg.jpg) no-repeat fixed center;
+    background-size: cover;
+	filter: brightness(60%);
+}
+
+#idhaampedia {
+	width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.header {
+	width: 90%;
+	display: block;
+	margin: 30px auto;
+	padding: 6px 0;
+	background: rgba(0,0,0, 0.8);
+	border-right: 20px solid #319ADE;
+	border-left: 20px solid #319ADE;
+	border-radius: 15px;
+}
+
+.logo {
+	width: 450px;
+    margin: 5px auto 2px auto;
+    display: block;
+}
+
+.content {
+	width: 90%;
+	display: block;
+	margin: -13px auto;
+	padding: 20px 0;
+}
+
+.box-content {
+	width: 360px;
+	display: inline-block;
+	margin: 25px;
+	background: linear-gradient(45deg, #f22613, #f89406, #26a65b, #5868ec, #f54e80, #f7ca18, #d2527f);
+
+    background-size: 500% 500%;
+
+    -webkit-animation: ignielGradient 1s ease infinite;
+
+    -moz-animation: ignielGradient 2s ease infinite;
+
+    animation: ignielGradient 2s ease infinite;
+
+}
+
+@-webkit-keyframes ignielGradient {
+
+    0%{background-position:0% 50%}
+
+    50%{background-position:100% 50%}
+
+    100%{background-position:0% 50%}
+
+}
+
+@-moz-keyframes ignielGradient {
+
+    0%{background-position:0% 50%}
+
+    50%{background-position:100% 50%}
+
+    100%{background-position:0% 50%}
+
+}
+
+@keyframes ignielGradient {
+
+    0%{background-position:0% 50%}
+
+    50%{background-position:100% 50%}
+
+    100%{background-position:0% 50%}
+
+}
+
+.kiri {
+	border-left: 17px solid #319ADE;
+	border-right: 12px solid #319ADE;
+	border-top: 17px solid #319ADE;
+	border-bottom: 17px solid #319ADE;
+	border-radius: 16px;
+}
+.kanan {
+	border-left: 12px solid #319ADE;
+	border-right: 17px solid #319ADE;
+	border-top: 17px solid #319ADE;
+	border-bottom: 17px solid #319ADE;
+	border-radius: 16px;
+}
+
+.img-content {
+	width: 360px;
+	height: 440px;
+	display: block;
+	margin: auto;
+}
+
+.btn-content {
+	font-family: 'Maiden Orange', cursive;
+	width: 250px;
+	height: auto;
+	display: block;
+	margin: 25px auto;
+	padding: 10px;
+	background: #319ADE;
+	border: 1px solid #319ADE;
+	color: #fff;
+	font-size: 2.9em;
+	border-radius: 8px;
+	outline: none;
+	cursor: pointer;
+	letter-spacing: 5px;
+}
+
+#login {
+	width: 100%;
+	height: 100%;
+	display: none;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(9,224,255, 0.8);
+}
+
+.login {
+	width: 100%;
+	height: auto;
+	display: block;
+	position: absolute;
+	margin: 0;
+	bottom: 0;
+	padding: 5px; 
+	background: #fff;
+}
+
+.txt-login {
+	display: block;
+	margin: 40px auto;
+	font-size: 3.7em;
+	color: rgba(9,224,255, 0.8);
+	letter-spacing: 2px;
+}
+
+.pilihan {
+	width: 90%;
+	display: block;
+	margin: 70px auto;
+}
+
+.box-pilihan {
+	width: 18%;
+	display: inline-block;
+	margin: 20px 100px;
+	cursor: pointer;
+}
+
+.img-box-pilihan {
+	width: 120px;
+	display: block;
+	margin: auto auto 20px auto;
+}
+
+.txt-box-pilihan {
+	display: block;
+	font-size: 2.5em;
+	color: rgba(9,224,255, 0.8);
+	letter-spacing: 2px;
+}
+
+.garis-pilihan {
+	display: block;
+	margin: 20px auto 50px auto;
+	width: 20%;
+	border: 2px solid rgba(9,224,255, 0.8);
+}
+
+.btn-pilihan {
+	font-family: 'Maiden Orange', cursive;
+	width: 270px;
+	height: auto;
+	display: block;
+	margin: 80px auto;
+	padding: 20px;
+	background: #319ADE;
+	border: 1px solid #319ADE;
+	color: #fff;
+	font-size: 2.9em;
+	border-radius: 8px;
+	outline: none;
+	cursor: pointer;
+	letter-spacing: 5px;
+}
+
+.loginnya {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    padding: 3px;
+    background: #fff;
+}
+
+.img-login {
+    width: 40px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.loginnya input, .loginnya select {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    padding: 9px 6px 9px 6px;
+    background: none;
+    border: none;
+    font-size: 0.9em;
+    color: #000;
+    border-bottom: 2px solid rgba(9,224,255, 0.8);
+    outline: none;
+}
+
+::placeholder {
+    color: #000;
+    opacity: 0.6;
+}
+
+.btn-login {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 20px auto 10px auto;
+    padding: 9px 6px 9px 6px;
+    background: none;
+    border: 1px solid rgba(9,224,255, 0.8);
+    border-radius: 3px;
+    font-size: 1em;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+}
